@@ -25,7 +25,6 @@ body {
     font-size: 20px;
     color: #FFF;
     background: none;
-    
     border-right: 1px solid #eeeeee36;
     padding-right: 10rem;
 }
@@ -36,8 +35,6 @@ body {
 
 .menu {
     background: none;
-    border-left: 1px solid #eeeeee36;
-    border-right: 1px solid #eeeeee36;
 }
 
 .menu a {
@@ -69,6 +66,8 @@ body {
 
 .info1 {
     border-left: 1px solid #eeeeee36;
+    border-bottom: 1px solid #eeeeee36;
+    border-radius: 1rem;
     background: none;
     padding: 10px;
     padding-left: 30px;
