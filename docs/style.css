@@ -17,7 +17,7 @@ body {
     align-items: center;
     padding: 10px 35px 20px 30px;
     background: none;
-    border-bottom: 1px solid #eeeeee1c;
+    border-bottom: 1px solid #eeeeee36;
 }
 
 .logo {
@@ -25,6 +25,9 @@ body {
     font-size: 20px;
     color: #FFF;
     background: none;
+    
+    border-right: 1px solid #eeeeee36;
+    padding-right: 10rem;
 }
 
 #logo1 {
@@ -33,6 +36,8 @@ body {
 
 .menu {
     background: none;
+    border-left: 1px solid #eeeeee36;
+    border-right: 1px solid #eeeeee36;
 }
 
 .menu a {
@@ -45,7 +50,6 @@ body {
     transition: .3s;
     line-height: 0em;
     padding-bottom: 0;
-
 }
 
 .menu a:hover {
@@ -55,16 +59,19 @@ body {
 .home {
     color: #FFF;
     background: none;
-    height: 500px;
+    height: 600px;
     size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 6rem;
 }
 
 .info1 {
+    border-left: 1px solid #eeeeee36;
     background: none;
     padding: 10px;
+    padding-left: 30px;
 }
 
 .info1 h1 {
@@ -79,7 +86,7 @@ body {
 
 .info1 h1 span {
     color: #00ADB5;
-    text-shadow: 4px 4px 2px rgba(3, 179, 243, 0.12);
+    text-shadow: 4px 4px 2px rgba(3, 179, 243, 0.075);
 }
 
 .infolinks {
@@ -144,4 +151,8 @@ body {
     
     background: none;
     padding-right: 0px;
+}
+
+#homeimg {
+    height: 700px;
 }
