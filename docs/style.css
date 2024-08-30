@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
 }
+
 body {
     background: #222831;
     min-height: 100vh;
@@ -14,7 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 35px 30px 30px;
+    padding: 10px 35px 20px 30px;
     background: none;
     border-bottom: 1px solid #eeeeee1c;
 }
@@ -42,9 +43,103 @@ body {
     background: none;
     padding: 10px;
     transition: .3s;
-    
+    line-height: 0em;
+    padding-bottom: 0;
+
 }
 
 .menu a:hover {
     color: #00ADB5;
+}
+
+.home {
+    color: #FFF;
+    background: none;
+    height: 500px;
+    size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info1 {
+    background: none;
+    padding: 10px;
+}
+
+.info1 h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 55px;
+    margin: 0;
+    padding: 0;
+    background: none;
+    line-height: .9;
+}
+
+.info1 h1 span {
+    color: #00ADB5;
+}
+
+.infolinks {
+    background: none;
+    margin-top: 20px;
+    display: flex;
+    padding: 10px;
+    padding-left: 0;
+
+}
+
+.infolinks a {
+    padding-right: 10px;
+
+}
+
+.imagens {
+    color: #FFF;
+    background: #00acb5;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: .3s;
+}
+
+.infolinks a img:hover {
+    color: #FFF;
+    background: #00acb5b1
+}
+
+.infolinks1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infolinks1 a {
+    display: flex;
+    align-items: center;
+    background: #393e46d2;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 5px;
+    color: #FFF;
+    font-family: "Poppins";
+    font-weight: 600;
+    border-radius: 50px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    text-shadow: 3px 6px 2px rgba(0,0,0,0.14);
+    text-align: start;
+    transition: .3s;
+    line-height: 0;
+}
+
+.infolinks1 a:hover {
+    background: #393e4633;
+}
+
+.infolinks1 box-icon {
+    
+    background: none;
+    padding-right: 0px;
 }
